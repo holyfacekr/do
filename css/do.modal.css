@@ -1,0 +1,8 @@
+.message_dialog {display: none; position: fixed; margin: 0 auto; top: calc(50% - 60px); left: calc(50% - 150px); z-index: 100; background-color: #ffffff; border-radius: 5px; padding: 20px 30px; border: 1px solid #BDBDBD; min-width: 300px; text-align: center; box-shadow:2px 2px 2px 2px #999;}
+.message_dialog > .btn_close {position: absolute; top: 0; right: 10px; font-size: 16px;}
+.message_dialog .btn {border: none; padding: 10px; background-color: #ffffff;}
+.message_dialog .message_inner {margin-top: 20px;}
+.message_dialog .message {display: inline-block; font-size: 16px; line-height: 1.44em; padding: 15px 0;}
+.message_dialog .button_wrap {margin-top: 15px;}
+.message_dialog .button_wrap .btn {border: 1px solid #BDBDBD;}
+.message_dialog .button_wrap .btn_ok {margin-right: 10px;}

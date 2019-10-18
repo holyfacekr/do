@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.do-datagrid {position: relative; box-sizing: border-box;}
+.data-grid-head {height: 30px; line-height: 30px;}
+.data-grid-head .data-grid-sub-title {float: left; font-weight: bold; color: #636b7e; padding-left: 5px;}
+.data-grid-head .data-total-count-container {float: right; vertical-align: middle;}
+
+.data-grid-body {background:#fff; width: 100%; border-radius: 5px; overflow:hidden;}
+.data-grid-body > table {width:100%; border-bottom: 2px solid #ddd;}
+.data-grid-body > table th { padding:5px; background:#fff;  border-bottom:2px solid #ddd; border-top:1px solid #ddd; color:#444; font-family: 'naB';}
+.data-grid-body th, .data-grid-body td { text-align:center; height: 45px; padding: 5px; line-height: 1.8; }
+.data-grid-body > table tr:hover {background-color: rgb(248, 248, 248);}
+.data-grid-body > table tr.no-data:hover {background-color: #fff;}
+.data-grid-body > table td {border-top:1px solid #ddd;cursor: pointer;}
+.data-grid-body > table select {height: 26px;}
+.data-grid-body .all_notice {background: #f9f9f9; font-family: naB; color: #0083db;}
+.data-grid-body .no-data {line-height: 445px;font-weight: 600;font-size: 16px;font-family:naB;}
+
+.pagination {width: 270px; height: 30px; border-right: 0px; margin: 0px auto; margin-top: 30px; overflow: hidden;}
+.pagination > p {float: left; width: 30px; height: 30px; border: 1px solid #ddd; box-sizing: border-box;}
+.pagination > p.first {float: left;}
+.pagination > p.last {float: right;}
+.pagination > ol {float: left; height: 30px; overflow: hidden;}
+.pagination > ol > li {float: left; width: 30px; height: 30px; border: 1px solid #ddd; box-sizing: border-box;}
+.pagination a {display: block; width: 100%; height: 100%; text-align: center; line-height: 30px; color: #999; font-family: '돋움',Dotum; font-weight: 600; font-size: 12px;}
+.pagination a.this {background: #eee; color: #444;}
